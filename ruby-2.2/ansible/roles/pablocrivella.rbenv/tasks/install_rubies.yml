@@ -1,0 +1,6 @@
+---
+- include: "system/install_rubies.yml"
+  when: "rbenv_env == 'system'"
+
+- include: "user/install_rubies.yml"
+  when: "rbenv_env == 'user'"
