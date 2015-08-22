@@ -4,7 +4,7 @@ MAINTAINER Jose Rivero <work@josemrb.com>
 
 # minimal utilities
 RUN apt-get update && \
-    apt-get install --no-install-recommends -y apt-utils git-core wget
+    apt-get install --no-install-recommends -y apt-utils git-core openssh-client wget sudo
 
 # ansible dependencies
 RUN apt-get install --no-install-recommends -y python-paramiko python-yaml python-jinja2 python-httplib2 python-setuptools python-pip
