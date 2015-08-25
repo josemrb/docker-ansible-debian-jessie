@@ -1,4 +1,4 @@
-FROM ansible-debian-jessie:base
+FROM ansible-debian-jessie/base
 MAINTAINER Jose Rivero <work@josemrb.com>
 
 RUN mkdir -p /tmp/ansible/ruby
